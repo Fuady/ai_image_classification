@@ -1,6 +1,27 @@
 # AI-Image Classification: Real vs AI-Generated Images  
-**Project Overview**
+
+## Project Overview
 
 This project focuses on building and evaluating machine learning and deep learning models to classify images as **real** or **AI-generated (synthetic)**. We use the *CIFAKE: Real and AI-Generated Synthetic Images* dataset from Kaggle as the benchmark dataset for this task.
+
+---
+
+## Dataset Description
+
+**Dataset Name:** CIFAKE: Real and AI-Generated Synthetic Images  
+**Source:** Kaggle (https://www.kaggle.com/datasets/birdy654/cifake-real-and-ai-generated-synthetic-images)  
+**Task Type:** Binary Image Classification (Real vs Fake) :contentReference[oaicite:1]{index=1}
+
+**Dataset Highlights:**
+
+- **Total Images:** ~120,000  
+  - 60,000 *Real* images from the CIFAR-10 dataset :contentReference[oaicite:2]{index=2}
+  - 60,000 *AI-Generated* images created using Stable Diffusion v1.4 :contentReference[oaicite:3]{index=3}  
+- **Image Size:** 32×32 (RGB)  
+- **Split:**  
+  - Training: 100,000 images (50,000 per class)  
+  - Testing: 20,000 images (10,000 per class) :contentReference[oaicite:4]{index=4}
+
+The dataset is balanced across *Real* and *Fake* classes, enabling unbiased training and evaluation. :contentReference[oaicite:5]{index=5}
 
 ---
