@@ -25,3 +25,20 @@ This project focuses on building and evaluating machine learning and deep learni
 The dataset is balanced across *Real* and *Fake* classes, enabling unbiased training and evaluation. :contentReference[oaicite:5]{index=5}
 
 ---
+
+## Project Goals
+
+1. **Understand the dataset** and perform exploratory data analysis.  
+2. **Preprocess the images** for model compatibility (normalization, resizing, augmentations).  
+3. **Train and evaluate multiple models** including:
+   - Traditional Machine Learning (e.g., SVM)  
+   - Convolutional Neural Networks (CNNs)  
+   - Transfer Learning Models (e.g., ResNet, VGG)  
+4. Compare performance using standard metrics:
+   - Accuracy  
+   - Precision  
+   - Recall  
+   - F1-Score  
+   - ROC-AUC  
+
+---
