@@ -23,7 +23,6 @@ This project focuses on building and evaluating machine learning and deep learni
 
 The dataset is balanced across *Real* and *Fake* classes, enabling unbiased training and evaluation.
 
----
 
 ## Project Goals
 
